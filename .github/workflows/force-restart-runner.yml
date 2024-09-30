@@ -45,7 +45,7 @@ jobs:
       run: |
           echo "Looking for runner..."
           # Look for whether there's a runner folder set up
-          if [ -f actions-runner/run.sh ] ; then
+          if [ -f /crave-devspaces/actions-runner/run.sh ] ; then
             echo "Runner found! Restarting it..."
           else
             echo "Error! Runner not found!"
